@@ -1,0 +1,140 @@
+{
+  "name": "IFT",
+  "values": [
+    {
+      "key": "MDMClients2",
+      "value": "https://mdm-clients.ift-2.axfx.test.vtb.ru/swagger/index.html",
+      "enabled": true
+    },
+    {
+      "key": "BRS",
+      "value": "https://base-rates-ui.ift.axfx.test.vtb.ru",
+      "enabled": true
+    },
+    {
+      "key": "bfko-dealsBranches",
+      "value": "https://ifaxfx-apc004wk.test.vtb.ru:9003/api-branches",
+      "enabled": true
+    },
+    {
+      "key": "bfko-dealsClients",
+      "value": "https://ifaxfx-apc004wk.test.vtb.ru:9059/api-clients",
+      "enabled": true
+    },
+    {
+      "key": "CBR",
+      "value": "https://cb-rates.ift.axfx.test.vtb.ru",
+      "enabled": true
+    },
+    {
+      "key": "FX",
+      "value": "https://ifaxfx-apc004wk.test.vtb.ru:9000/api-fx",
+      "enabled": true
+    },
+    {
+      "key": "cross-references1",
+      "value": "https://cross-references.ift-1.axfx.test.vtb.ru",
+      "enabled": true
+    },
+    {
+      "key": "cross-references2",
+      "value": "https://cross-references.ift-2.axfx.test.vtb.ru",
+      "enabled": true
+    },
+    {
+      "key": "bfko-dealsAbsId",
+      "value": "https://ifaxfx-apc004wk.test.vtb.ru:9000/api-fx",
+      "enabled": true
+    },
+    {
+      "key": "TokenURL",
+      "value": "https://identity.ift.axfx.test.vtb.ru/connect/token",
+      "enabled": true
+    },
+    {
+      "key": "allTestsPassed",
+      "value": "",
+      "enabled": true
+    },
+    {
+      "key": "bfko-dealsAccountName",
+      "value": "https://bfko-deals.ift-1.axfx.test.vtb.ru",
+      "enabled": true
+    },
+    {
+      "key": "sfp-emulator1",
+      "value": "https://sfp-emulator.ift-1.axfx.test.vtb.ru",
+      "enabled": true
+    },
+    {
+      "key": "sfp-emulator2",
+      "value": "https://sfp-emulator.ift-2.axfx.test.vtb.ru",
+      "enabled": true
+    },
+    {
+      "key": "Calendars2",
+      "value": "https://calendars.ift-2.axfx.test.vtb.ru",
+      "enabled": true
+    },
+    {
+      "key": "Calendars1",
+      "value": "https://calendars.ift-1.axfx.test.vtb.ru",
+      "enabled": true
+    },
+    {
+      "key": "Branches",
+      "value": "https://branches.ift-1.axfx.test.vtb.ru",
+      "enabled": true
+    },
+    {
+      "key": "Clients",
+      "value": "https://clients.ift-1.axfx.test.vtb.ru",
+      "enabled": true
+    },
+    {
+      "key": "QuotesEmu",
+      "value": "https://quotes-emulator.ift-1.axfx.test.vtb.ru",
+      "enabled": true
+    },
+    {
+      "key": "RPHistory",
+      "value": "https://rate-publisher-history.ift-1.axfx.test.vtb.ru",
+      "enabled": true
+    },
+    {
+      "key": "Pricing2",
+      "value": "https://pricing.ift-2.axfx.test.vtb.ru",
+      "enabled": true
+    },
+    {
+      "key": "CrossRates",
+      "value": "https://cross-rates.ift.axfx.test.vtb.ru",
+      "enabled": true
+    },
+    {
+      "key": "NSPK-Service2",
+      "value": "nspk.ift-2.axfx.test.vtb.ru",
+      "enabled": true
+    },
+    {
+      "key": "Pricing1",
+      "value": "https://pricing.ift-1.axfx.test.vtb.ru",
+      "enabled": true
+    },
+    {
+      "key": "NSPK-Service1",
+      "value": "nspk.ift-1.axfx.test.vtb.ru",
+      "enabled": true
+    },
+    {
+      "key": "RareRates",
+      "value": "https://rare-rates.ift.axfx.test.vtb.ru",
+      "enabled": true
+    },
+    {
+      "key": "MDMClients1",
+      "value": "https://mdm-clients.ift-1.axfx.test.vtb.ru/swagger/index.html",
+      "enabled": true
+    }
+  ]
+}
