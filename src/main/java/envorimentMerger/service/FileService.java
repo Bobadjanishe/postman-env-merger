@@ -1,4 +1,4 @@
-package service;
+package envorimentMerger.service;
 
 import java.nio.file.Files;
 import java.nio.file.Path;

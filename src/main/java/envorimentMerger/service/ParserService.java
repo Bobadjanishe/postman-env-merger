@@ -1,6 +1,7 @@
-package service;
+package envorimentMerger.service;
 
-import model.Variable;
+import envorimentMerger.model.MergeResult;
+import envorimentMerger.model.Variable;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -58,12 +59,12 @@ public class ParserService {
     }
 
     // 6. Объединяем переменные из нескольких файлов и отслеживаем изменения
-    public model.MergeResult mergeVariablesWithTracking(
+    public MergeResult mergeVariablesWithTracking(
             java.util.List<java.nio.file.Path> files,
-            service.FileService fileService
+            FileService fileService
     ) throws Exception {
 
-        model.MergeResult result = new model.MergeResult();
+        MergeResult result = new MergeResult();
 
         // итоговая Map
         java.util.Map<String, String> map = result.getFinalData();
@@ -75,10 +76,10 @@ public class ParserService {
             String json = fileService.readFile(file);
 
             // 3. парсим переменные
-            java.util.List<model.Variable> vars = parseVariables(json);
+            java.util.List<Variable> vars = parseVariables(json);
 
             // 4. идём по переменным
-            for (model.Variable v : vars) {
+            for (Variable v : vars) {
 
                 String key = v.getKey();
                 String newValue = v.getValue();
