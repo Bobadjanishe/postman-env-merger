@@ -1,11 +1,12 @@
-package model;
+package envorimentMerger.model;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.TreeMap;
 
 public class MergeResult {
 
-    private Map<String, String> finalData = new HashMap<>();
+    private Map<String, String> finalData = new TreeMap<>();
     private Map<String, String> added = new HashMap<>();
     private Map<String, String> updated = new HashMap<>();
 

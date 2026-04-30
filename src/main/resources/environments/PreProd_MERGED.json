@@ -2,53 +2,8 @@
   "name": "PreProd",
   "values": [
     {
-      "key": "MDMClients2",
-      "value": "https://mdm-clients.preprod-2.axfx.test.vtb.ru",
-      "enabled": true
-    },
-    {
-      "key": "bearer_token",
-      "value": "",
-      "enabled": true
-    },
-    {
-      "key": "Branches2",
-      "value": "https://branches.preprod-2.axfx.test.vtb.ru",
-      "enabled": true
-    },
-    {
       "key": "BLS",
       "value": "https://rraxfx-apc005wk.test.vtb.ru:9001/api-bls",
-      "enabled": true
-    },
-    {
-      "key": "bfko-dealsBranches",
-      "value": "https://axfxapprr.test.vtb.ru/api-branches",
-      "enabled": true
-    },
-    {
-      "key": "BRSStreaming2",
-      "value": "https://base-rates-streaming.preprod-2.axfx.test.vtb.ru",
-      "enabled": true
-    },
-    {
-      "key": "OCSM",
-      "value": "https://ocsm-deals.preprod-1.axfx.test.vtb.ru",
-      "enabled": true
-    },
-    {
-      "key": "BRSStreaming1",
-      "value": "https://base-rates-streaming.preprod-1.axfx.test.vtb.ru",
-      "enabled": true
-    },
-    {
-      "key": "bfko-dealsClients",
-      "value": "https://axfxapprr.test.vtb.ru/api-clients",
-      "enabled": true
-    },
-    {
-      "key": "BRS2",
-      "value": "https://base-rates.preprod-2.axfx.test.vtb.ru",
       "enabled": true
     },
     {
@@ -57,8 +12,28 @@
       "enabled": true
     },
     {
-      "key": "lastUpdated",
-      "value": "",
+      "key": "BRS2",
+      "value": "https://base-rates.preprod-2.axfx.test.vtb.ru",
+      "enabled": true
+    },
+    {
+      "key": "BRSStreaming1",
+      "value": "https://base-rates-streaming.preprod-1.axfx.test.vtb.ru",
+      "enabled": true
+    },
+    {
+      "key": "BRSStreaming2",
+      "value": "https://base-rates-streaming.preprod-2.axfx.test.vtb.ru",
+      "enabled": true
+    },
+    {
+      "key": "Branches",
+      "value": "https://axfxapprr.test.vtb.ru/api-branches",
+      "enabled": true
+    },
+    {
+      "key": "Branches2",
+      "value": "https://branches.preprod-2.axfx.test.vtb.ru",
       "enabled": true
     },
     {
@@ -67,8 +42,53 @@
       "enabled": true
     },
     {
+      "key": "CBR2",
+      "value": "https://cb-rates.preprod-2.axfx.test.vtb.ru",
+      "enabled": true
+    },
+    {
+      "key": "Clients",
+      "value": "https://clients.preprod-1.axfx.test.vtb.ru",
+      "enabled": true
+    },
+    {
+      "key": "Clients2",
+      "value": "https://clients.preprod-2.axfx.test.vtb.ru",
+      "enabled": true
+    },
+    {
+      "key": "CrossRates",
+      "value": "https://cross-rates.axfx.test.vtb.ru",
+      "enabled": true
+    },
+    {
       "key": "FX",
-      "value": "https://deals.preprod-1.axfx.test.vtb.ru",
+      "value": "https://axfxapprr.test.vtb.ru/api-fx",
+      "enabled": true
+    },
+    {
+      "key": "FX2",
+      "value": "https://deals.preprod-2.axfx.test.vtb.ru",
+      "enabled": true
+    },
+    {
+      "key": "MDMClients1",
+      "value": "https://mdm-clients.preprod-1.axfx.test.vtb.ru",
+      "enabled": true
+    },
+    {
+      "key": "MDMClients2",
+      "value": "https://mdm-clients.preprod-2.axfx.test.vtb.ru",
+      "enabled": true
+    },
+    {
+      "key": "NSPK-Service1",
+      "value": "https://nspk.preprod-1.axfx.test.vtb.ru",
+      "enabled": true
+    },
+    {
+      "key": "NSPK-Service2",
+      "value": "https://nspk.preprod-2.axfx.test.vtb.ru",
       "enabled": true
     },
     {
@@ -77,18 +97,33 @@
       "enabled": true
     },
     {
-      "key": "cross-references1",
-      "value": "https://cross-references.preprod-1.axfx.test.vtb.ru",
+      "key": "OCSM",
+      "value": "https://ocsm-deals.preprod-1.axfx.test.vtb.ru",
       "enabled": true
     },
     {
-      "key": "cross-references2",
-      "value": "https://cross-references.preprod-2.axfx.test.vtb.ru",
+      "key": "Pricing1",
+      "value": "https://pricing.preprod-1.axfx.test.vtb.ru",
       "enabled": true
     },
     {
-      "key": "bfko-dealsAbsId",
-      "value": "https://axfxapprr.test.vtb.ru/api-fx",
+      "key": "Pricing2",
+      "value": "https://pricing.preprod-2.axfx.test.vtb.ru",
+      "enabled": true
+    },
+    {
+      "key": "QuotesEmu",
+      "value": "https://quotes-emulator.preprod-1.axfx.test.vtb.ru",
+      "enabled": true
+    },
+    {
+      "key": "RPHistory",
+      "value": "https://rate-publisher-history.preprod-1.axfx.test.vtb.ru/swagger/index.html",
+      "enabled": true
+    },
+    {
+      "key": "RareRates",
+      "value": "https://rare-rates.axfx.test.vtb.ru",
       "enabled": true
     },
     {
@@ -102,13 +137,43 @@
       "enabled": true
     },
     {
+      "key": "bearer_token",
+      "value": "",
+      "enabled": true
+    },
+    {
+      "key": "bfko-dealsAbsId",
+      "value": "https://axfxapprr.test.vtb.ru/api-fx",
+      "enabled": true
+    },
+    {
       "key": "bfko-dealsAccountName",
       "value": " https://bfko-deals.preprod-2.axfx.test.vtb.ru",
       "enabled": true
     },
     {
-      "key": "CBR2",
-      "value": "https://cb-rates.preprod-2.axfx.test.vtb.ru",
+      "key": "bfko-dealsBranches",
+      "value": "https://axfxapprr.test.vtb.ru/api-branches",
+      "enabled": true
+    },
+    {
+      "key": "bfko-dealsClients",
+      "value": "https://axfxapprr.test.vtb.ru/api-clients",
+      "enabled": true
+    },
+    {
+      "key": "cross-references1",
+      "value": "https://cross-references.preprod-1.axfx.test.vtb.ru",
+      "enabled": true
+    },
+    {
+      "key": "cross-references2",
+      "value": "https://cross-references.preprod-2.axfx.test.vtb.ru",
+      "enabled": true
+    },
+    {
+      "key": "lastUpdated",
+      "value": "",
       "enabled": true
     },
     {
@@ -122,78 +187,13 @@
       "enabled": true
     },
     {
-      "key": "FX2",
-      "value": "https://deals.preprod-2.axfx.test.vtb.ru",
-      "enabled": true
-    },
-    {
-      "key": "Branches",
-      "value": "https://branches.preprod-1.axfx.test.vtb.ru",
-      "enabled": true
-    },
-    {
-      "key": "Clients",
-      "value": "https://clients.preprod-1.axfx.test.vtb.ru",
-      "enabled": true
-    },
-    {
-      "key": "QuotesEmu",
-      "value": "https://quotes-emulator.preprod-1.axfx.test.vtb.ru",
-      "enabled": true
-    },
-    {
       "key": "token",
       "value": "",
       "enabled": true
     },
     {
-      "key": "RPHistory",
-      "value": "https://rate-publisher-history.preprod-1.axfx.test.vtb.ru/swagger/index.html",
-      "enabled": true
-    },
-    {
-      "key": "Clients2",
-      "value": "https://clients.preprod-2.axfx.test.vtb.ru",
-      "enabled": true
-    },
-    {
-      "key": "Pricing2",
-      "value": "https://pricing.preprod-2.axfx.test.vtb.ru",
-      "enabled": true
-    },
-    {
-      "key": "CrossRates",
-      "value": "https://cross-rates.axfx.test.vtb.ru",
-      "enabled": true
-    },
-    {
-      "key": "NSPK-Service2",
-      "value": "https://nspk.preprod-2.axfx.test.vtb.ru",
-      "enabled": true
-    },
-    {
-      "key": "Pricing1",
-      "value": "https://pricing.preprod-1.axfx.test.vtb.ru",
-      "enabled": true
-    },
-    {
       "key": "token_last_updated",
       "value": "",
-      "enabled": true
-    },
-    {
-      "key": "NSPK-Service1",
-      "value": "https://nspk.preprod-1.axfx.test.vtb.ru",
-      "enabled": true
-    },
-    {
-      "key": "RareRates",
-      "value": "https://rare-rates.axfx.test.vtb.ru",
-      "enabled": true
-    },
-    {
-      "key": "MDMClients1",
-      "value": "https://mdm-clients.preprod-1.axfx.test.vtb.ru",
       "enabled": true
     }
   ]

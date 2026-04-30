@@ -1,6 +1,8 @@
-import model.MergeResult;
-import service.FileService;
-import service.ParserService;
+package envorimentMerger;
+
+import envorimentMerger.model.MergeResult;
+import envorimentMerger.service.FileService;
+import envorimentMerger.service.ParserService;
 
 import java.nio.file.Path;
 import java.util.List;

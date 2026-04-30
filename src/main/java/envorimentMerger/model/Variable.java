@@ -1,4 +1,4 @@
-package model;
+package envorimentMerger.model;
 
 public class Variable {
 
